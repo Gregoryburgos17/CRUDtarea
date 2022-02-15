@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAHatHPmQ3/kaktumBPzAblwAAAAACAAAAAAAQZgAAAAEAACAAAAB6vc/9Q3FDXbFMPNM8HRu3b2rc33PNYVDdLwM/k7C+NQAAAAAOgAAAAAIAACAAAACI3/+GpO261ekMfEhjwuybzmlf5O4vs8TSqNK4VfFUUIAAAAAAjZJAzOgVgxrvdqZs7h/Y++6/CBWB4AZ+ID01UiPHDX0mohdmqIhijrvrA28we1DOoNTPDRWYnRkREhNGGKxNCDA9gtTVRdgdTp8F+BCuz6nhySQ6l02i8vwZHrd3sYmnV6VlaqX9/u41qVWJPpJISg2Djncf+lb14SHQKrkj80AAAACgBpYPsGlcks77Q45sLUN8IaACqI2lzqscPb801Oq2DuHRSyOkKOb/+Ld7fNAvy9zLKE0zbdQ5tQg23sLn3MS4</EncryptedPassword>
+    <History>True|2022-02-11T02:24:09.6470175Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="cs">
+      <Value>Data Source=tcp:backend-tareasdbserver1.database.windows.net,1433%3bInitial Catalog=Backend-tareas_db%3bUser Id=Gregory%40backend-tareasdbserver1%3bPassword=Siguiente1234+</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Backend_tareas.Context.AplicationDbContext">
+      <Value>Data Source=tcp:backend-tareasdbserver1.database.windows.net,1433%3bInitial Catalog=Backend-tareas_db%3bUser Id=Gregory%40backend-tareasdbserver1%3bPassword=Siguiente1234+</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

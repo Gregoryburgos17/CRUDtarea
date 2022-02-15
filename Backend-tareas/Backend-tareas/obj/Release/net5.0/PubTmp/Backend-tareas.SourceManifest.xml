@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\Gregory Burgos\Desktop\vue\Backend-tareas\Backend-tareas\obj\Release\net5.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\Gregory Burgos\Desktop\vue\Backend-tareas\Backend-tareas\obj\Release\net5.0\PubTmp\EFSQLScripts\Backend_tareas.Context.AplicationDbContext.sql" />
+</sitemanifest>
